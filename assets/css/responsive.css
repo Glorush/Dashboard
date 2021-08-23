@@ -1,0 +1,406 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media all and (min-width: 1025px){
+	.deshboard_menu_area{
+		display: block !important;
+	}
+	.navbar {
+	  display: none;
+	}
+}
+@media all and (min-width: 768px){
+
+}
+@media all and (max-width: 1822px){
+	.sh_error_tickets .card-footer ul {
+		flex-direction: column;
+	}
+	.sh_error_tickets .card-footer ul li:first-child {
+		margin-bottom:8px;
+	}
+	.dataTables_length select {
+		max-width: 135px;
+		padding: 10px 35px 10px 30px;
+	}
+}
+@media all and (min-width:1600px) and (max-width: 1781px){
+	.golden_power_coien_blance p span:last-child {
+		line-height: 34px;
+		font-size: 22px;
+	}
+	.golden_income ul li p, .goldent_spending ul li p, .golden_power_counting_items h3 {
+		font-size: 17px;
+		line-height: 32px;
+	}
+	.golden_power_coien_blance p span:last-child {
+		line-height: 34px;
+		font-size: 17px;
+		margin-left: 10px;
+	}
+	.golden_power_coien_blance p span:first-child {
+		font-size: 15px;
+	}
+	.sh_gpe_trns_order .col-md-6:last-child{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.sh_gpe_trns_order .col-md-6 .dataTables_length {
+		width: 100%;
+		justify-content: flex-end;
+	}
+}
+@media all and (min-width: 1400px) and (max-width: 1599px){
+	.golden_power_coien_blance p {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}		
+	.golden_power_coien_blance p span:last-child {
+		margin-top: 10px;
+		margin-left: 0;
+	}
+	.sh_income_spending_items::after {
+		display: none;
+	}
+	.sh_income_spending_items {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.goldent_spending {
+		margin-top: 15px;
+	}
+
+	.sh_counting_single_items .card-body {
+		padding: 32px 20px;
+	}
+	.golden_income ul li p, 
+	.goldent_spending ul li p, 
+	.golden_power_counting_items h3 {
+		font-size: 16px;
+		line-height: 32px;
+	}
+	.sh_top_ups_golden_coin {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: start;
+	}
+	.sh_top_ups_golden_coin_items:not(:last-child) {
+		margin-bottom: 25px;
+	}
+	.sh_line{
+		display: none;
+	}
+	.sh_top_upsv2_about_gpc ul li {
+		font-size: 17px;
+	}
+	.sh_cashout_widgets1 .text-center {
+		text-align: left !important;
+	}
+	.sh_support_ticket > .col-sm-7{
+		width: 100%;
+	}
+	.sh_gpe_trns_order .col-md-6:last-child{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.sh_gpe_trns_order .col-md-6:first-child {
+		width: 100%;
+	}
+	.sh_gpe_trns_order .col-md-6 .dataTables_length {
+		width: 100%;
+		justify-content: flex-end;
+	}
+	.sh_account_id input {
+		width: 35px;
+	}
+
+}
+@media all and (max-width: 1399px){
+	.right_golden_power_blance{
+		margin-top: 40px;
+	}
+	.sh_top_upsV2_income_spending{
+		margin-top: 20px;
+	}
+	.sh_cashout_withdraw_form .buy_golden_power_coien{
+		padding-bottom:80px;
+	}
+	.sh_cashout_withdraw_form .sh_buy_golden_coinv2_img{
+		text-align: right;
+	}
+	.sh_cashout_withdraw_form .sh_buy_golden_coinv2_img img {
+		width: 60%;
+		position: relative;
+	}
+	.sh_error_tickets .card-footer ul {
+		flex-direction: unset;
+	}
+}
+@media all and (min-width: 1025px) and (max-width: 1199px){
+	.sh_top_ups_golden_coin_items ul li:last-child p {
+		font-size: 18px;
+	}
+}
+@media all and (max-width:1199px){
+	.right_golden_power_blance{
+		margin-top: 40px;
+	}
+	.deshboard_search_bar form {
+		width: 312px;
+	}
+	.sh_top_ups_golden_coin_items h3 {
+		font-size: 28px;
+	}
+	.sh_top_ups_golden_coin_items h3 {
+		font-size: 26px;
+	}
+	.sh_account_id input {
+		width: 36px;
+		padding: 10px 5px !important;
+		text-align: center;
+	}
+}
+@media all and (max-width:1024px){
+	.deshboard_menu_area {
+		display: none;
+	}
+	.hamber_menu_area{
+		display: block;
+	}
+	.deshboard_search_bar {
+	  display: none;
+	}
+	.togle_humber{
+	  display: block;
+	}
+	.deshboard_logo_area {
+		display: none;
+	}
+	.deshboard_logo_area a img {
+		display: none;
+	}
+	.deshboard_menu_area {
+		position: absolute;
+		z-index: 99999999999999999;
+		top: 88px;
+		padding-top: 24px;
+		height: 100%;
+		width: 100%;
+	}
+	.deshboard_nav_menu {
+		width: 100% !important;
+		background: #FFF9ED;
+	}
+	.navbar {
+	  display: block;
+	}.sh_account_id input {
+		width: 45px;
+	}
+}
+@media all and (max-width: 991px){
+	.sh_top_ups_golden_coin_items:last-child ul{
+		width: 120px;
+	}
+	.sh_top_ups_golden_coin_items ul li:last-child p {
+		font-size: 18px;
+	}
+	.join_golden_ionc {
+		margin-top: 20px;
+	}
+	.sh_account_id input {
+		width: 34px;
+		padding: 10px 5px !important;
+		text-align: center;
+	}
+}
+@media all and (max-width: 767px){
+
+	.sh-datatable table{
+		width: 695px;
+		overflow-y: scroll;
+	}
+	.deshboard_profile_bar ul li:nth-child(1){
+		display: none;
+	}
+	.deshboard_profile_bar ul li:nth-child(2){
+		display: none;
+	}
+	.sh_main_tamplate {
+		position: relative;
+	}
+	.sh_main_content_area {
+		padding: 20px 10px 20px 10px;
+	}
+	.sh_buy_golden_coinv2_img img {
+		width: 85%;
+		position: relative;
+		margin: 0 auto;
+	}
+	.buy_golden_power_coien {
+		padding-bottom: 80px;
+	}
+	.sh_buy_golden_coinv2_img {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.sh_top_ups_golden_coin {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: start;
+	}
+	.sh_line {
+		display: none;
+	}
+	.sh_top_ups_golden_coin_items:not(:last-child) {
+		margin-bottom: 25px;
+	}
+	.sh_top_ups_golden_coin_items:last-child ul {
+		width: 100%;
+	}
+	.sh_cashout_widgets1 .text-center {
+		text-align: left !important;
+	}
+
+	.sh_top_ups_golden_coin_items ul li:last-child p {
+		font-size: 20px;
+	}
+	.sh_account_id input {
+		width: 45px;	
+		margin-top: 10px;
+	}
+	.sh_account_id {
+		flex-wrap: wrap;
+	}
+}
+@media all and (max-width: 575px){
+
+	.refer_clipboard_items form .form-group {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.refer_clipboard_items form .form-group input {
+		width: 100%;
+		border-radius: 10px;
+		margin-top: 15px;
+	}
+	.refer_clipboard_items form input[type="button"] {
+		max-width: 100%;
+	}
+	.refer_golden_clipboard::after{
+		display: none;
+	}
+	.sh_social_share_left{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.sh_social_share_left ul:first-child{
+		margin-bottom: 15px;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.join_share_icon a {
+		margin-top: 0px;
+	}
+	.golden_power_coien_blance p {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}		
+	.golden_power_coien_blance p span:last-child {
+		margin-top: 15px;
+		margin-left: 0;
+	}
+	.sh_income_spending_items {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}	
+	.sh_income_spending_items::after {
+		display: none;
+	}
+	.goldent_spending{
+		margin-top: 15px;
+	}
+	.sh_top_ups_golden_coin_items h3 {
+		font-size: 26px;
+	}
+	.sh_cashout_withdraw_form .amount_desc p span{
+		display: block;
+	}
+	.sh_cashout_withdraw_form .sh_buy_golden_coinv2_img img {
+		width: 80%;
+	}
+	.sh_error_tickets .card-footer ul {
+		flex-direction: column;
+	}
+	.sh_error_tickets .card-footer ul li:first-child {
+		margin-bottom:8px;
+	}
+}
+@media all and (max-width: 450px){
+
+	.template_main_area {
+		padding: 20px 15px 20px 15px;
+	}
+	.card-body {
+		padding: 20px 20px;
+	}
+	.join_golden_ionc .card::before {
+		width: 13px;
+	}
+	.sh_main_content_area, .sh_top_upsV2_area, .sh_cash_out_area {
+		padding: 20px 5px 20px 5px;
+	}
+	.shl_top_upsV2-golden_power > .card >.card-body{
+		padding:  10px 0px;
+	}
+	.sh_top_ups_golden_coin {
+		padding: 10px 16px;
+	}
+	.sh_top_ups_Buy_golden_powerCoin h3 {
+		font-size: 21px;
+		line-height: 30px;
+	}
+	.sh_top_upsv2_about_gpc ul li {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.amount_desc p span {
+		font-size: 18px;
+	}
+	.amount_desc p {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.sh_cashout_withdraw_form .buy_golden_power_coien {
+		padding-bottom: 20px;
+	}
+	.sh_support_ticket_card .card-body{
+		padding: 20px 15px;
+	}
+	.sh_account_id input {
+		width: 42px;
+	}
+	.sh_transfer_messages p span{
+		display: block;
+	}
+	.sh_gpe_trns_order .col-md-6:last-child {
+		margin-top: 10px;
+	}
+}
